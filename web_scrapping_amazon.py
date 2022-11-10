@@ -5,15 +5,9 @@ from selenium.webdriver.common.by import By
 from dotenv import load_dotenv, find_dotenv
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 
 import os
 import time
-import json
-import math as mt
-import pandas as pd
-import gspread
-import gspread_dataframe as gd
 from rich.console import Console
 from rich.table import Table
 
@@ -116,7 +110,7 @@ for item in itens:
     n_avaliaçoes = n_avaliaçoes.replace('.','')
 
     estrelas = item.find_element(By.XPATH, 'span/div/div/div/div[2]/div[3]/div/div[1]/div/div[1]/div[2]/div[1]/span/a').get_attribute('aria-label') 
-    #Nesse caso em específico eu não estrai o valor do texto, mas o valor de um dos atributos do elemento Ex: <a aria-label="4.9">Kindle</a>, nesse caso eu quero a nota da avaliação, então o .text não me serve, mas a minha informação está no atributo aria-label, então por isso essa função
+    # Nesse caso em específico eu não estrai o valor do texto, mas o valor de um dos atributos do elemento Ex: <a aria-label="4.9">Kindle</a>, nesse caso eu quero a nota da avaliação, então o .text não me serve, mas a minha informação está no atributo aria-label, então por isso essa função
     avaliaçao = estrelas.replace(' de 5 estrelas', '')
 
     tempo = item.find_element(By.XPATH, '//*[@id="itemAddedDate_I2I7UC8RDIEEKR"]').text
