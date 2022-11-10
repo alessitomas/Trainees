@@ -15,3 +15,5 @@ Selenium
 - <a href="https://pypi.org/project/selenium/">Documentação oficial</a>
 - <a href="https://www.youtube.com/watch?v=H6D8EFSGml0&t=1s">Video que trás a estruturação de um selenium, mas ele utiliza funções defasadas, pegem apenas o pensamento</a>
 
+Para instalar as dependências user o código
+pip install -r requirements.txt
