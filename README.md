@@ -11,7 +11,7 @@ Gspread
 - <a href="https://pypi.org/project/gspread/">Documentação do pypi do Gspread</a>
 
 Selenium
-- <a href="https://readthedocs.org/projects/selenium-python/downloads/pdf/latest/">Pdf mais completo que eu tenho conhecimento sobre as funções do selenium</a>
+- <a href="https://github.com/PedroIbiapino/Trainees/blob/main/Pdf%20Selenium.pdf">Pdf mais completo que eu tenho conhecimento sobre as funções do selenium</a>
 - <a href="https://pypi.org/project/selenium/">Documentação oficial</a>
 - <a href="https://www.youtube.com/watch?v=H6D8EFSGml0&t=1s">Video que trás a estruturação de um selenium, mas ele utiliza funções defasadas, pegem apenas o pensamento</a>
 
