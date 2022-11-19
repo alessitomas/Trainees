@@ -21,7 +21,7 @@ senha_usuario = os.getenv('senha')
 chrome_options = Options() #Opções de inicialização do Chrome
 
 # chrome_options.add_argument("--incognito")            # Abre a navegação anonima
-chrome_options.add_argument("--headless")             # Esconde a interface gráfica tornando o driver muito mais rápido
+# chrome_options.add_argument("--headless")             # Esconde a interface gráfica tornando o driver muito mais rápido
 # chrome_options.add_argument("no-sandbox")             # Desativa a segurança de alguns sites que bloqueiam o headless
 # chrome_options.add_argument("--window-size=800,600")  # Abre a janela no tamanho desejado (em pixels)
 # chrome_options.add_argument("--window-size=800,600")  # Abre a janela no tamanho desejado (em pixels)
